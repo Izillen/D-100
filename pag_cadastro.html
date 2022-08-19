@@ -11,6 +11,48 @@
     <title>D 100</title>
 </head>
 <body>
+    <div class="quadrado">
+        <h3>Cadastro</h3>
+        <p>Bem-vindo ao D100, o melhor site para jogadores de RPG</p>
+        <hr>
+
+        <form method="post" class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label" id="nome">Nome de Usuário</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Usuário" maxlength="16" onfocus="onfocus" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustomEmail" class="form-label" id="email">Endereço de E-mail</label>
+                <input type="email" class="form-control" id="validationCustomEmail" placeholder="E-mail" required>
+            </div>
+            <div>
+                <label for="validationCustom02" class="form-label" id="senha">Senha</label>
+                <input type="password" class="form-control" id="validationCustom02" placeholder="Senha" maxlength="8" min="6" required>
+            </div>
+            <div>
+                <label for="validationCustomConfirm" class="form-label" id="confi_senha">Confirmar senha</label>
+                <input type="password" class="form-control" id="validationCustomConfirm" placeholder="Confirme a senha" maxlength="8" min="6" required>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label" for="invalidCheck" id="check_email">Concordo em receber notificações no e-mail</label>
+                <input class="form-check-input" type="checkbox" value="" id="validCheck">
+            </div>
+            <div class="form-check">
+                <label class="form-check-label" for="invalidCheck" id="check_termos">Concordo com os termos de serviço</label>
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <div class="invalid-feedback">
+                    Você deve concordar antes de enviar o cadastro!
+                </div>
+            </div>
+
+            <div>
+                <button type="submit" class="btn" id="botao">Cadastrar</button>
+            </div>
+        </form>
+    </div>
     
+
+    <script src="pag_cadastro.js"></script>
+    <script src="Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
