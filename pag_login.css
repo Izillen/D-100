@@ -1,0 +1,124 @@
+@font-face{
+    font-family: 'Inter Regular';
+    src: url(fonts/Inter/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body{
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(imagens/login.jpg);
+}
+.quadrado{
+position: absolute;
+width: 451px;
+height: 511px;
+left: 35%;
+top: 80px;
+
+background: rgba(243, 243, 243, 0.81);
+border-radius: 20px;
+
+}
+
+h3{
+margin-top: 1px;
+position: absolute;
+width: 368px;
+height: 62px;
+font-family: 'Inter Regular';
+font-weight: 400;
+font-size: 32px;
+text-align: center;
+color: #000000;
+left: 35px;
+top: 30px;
+}
+
+p{
+position: absolute;
+width: 395px;
+height: 55px;
+font-family: 'Inter Regular';
+font-size: 20px;
+text-align: center;
+color: #000000;
+top: 80px;
+left: 30px;
+}
+
+hr{
+position: absolute;
+width: 368px;
+height: 0px;
+left: 35px;
+top: 150px;
+border: 1px solid #D3B2B2;
+}
+
+#nome{
+position: absolute;
+width: 139px;
+height: 18px;
+left: 30px;
+top: 200px;
+font-family: 'Inter Regular';
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+color: #393939;
+}
+
+#validationCustom01{
+position: absolute;
+width: 345px;
+height: 35px;
+left: 30px;
+top: 230px;
+font-family: 'Roboto';
+font-size: 15px;
+
+
+}
+
+#senha{
+position: absolute;
+width: 77px;
+height: 18px;
+left: 30px;
+top: 280px;
+font-family: 'Inter Regular';
+font-size: 15px;
+line-height: 18px;
+color: #393939;
+}
+
+#validationCustom02{
+position: absolute;
+width: 345px;
+height: 35px;
+left: 30px;
+top: 310px;
+font-family: 'Roboto';
+font-size: 15px;
+}
+
+#botao{
+position: absolute;
+width: 177px;
+height: 49px;
+left: 130px;
+top: 410px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background: rgba(93, 39, 71, 0.84);
+border: none;
+border-radius: 7px;
+font-family: 'Inter Regular';
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+}

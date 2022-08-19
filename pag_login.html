@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="pag_login.css">
+    <link rel="shortcut icon" href="imagens/D_100 1.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6e282e7ab6.js" crossorigin="anonymous"></script>
+    <title>D 100</title>
+</head>
+<body>
+    <div class="quadrado">
+        <h3>Login</h3>
+        <hr>
+        <p>Bem-vindo ao D100, o melhor site para jogadores de RPG</p>
+        <form method="post" class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label" id="nome">Nome de Usuário</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Usuário" maxlength="16" onfocus="onfocus" required>
+            </div>
+            <div>
+                <label for="validationCustom02" class="form-label" id="senha">Senha</label>
+                <input type="password" class="form-control" id="validationCustom02" placeholder="Senha" maxlength="8" min="6" required>
+            </div>
+            <div>
+                <button type="submit" class="btn" id="botao">Logar</button>
+            </div>
+        </form>
+    </div>
+    <script src="pag_login.js"></script>
+    <script src="Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
