@@ -1,0 +1,150 @@
+@font-face{
+    font-family: 'Inter Regular';
+    src: url(fonts/Inter/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(imagens/login.jpg);
+display: flex;
+font-family: 'Inter Regular';
+justify-content: center;
+min-height: 100vh;
+
+border: 0;
+}
+
+.quadrado{
+background: rgba(243, 243, 243, 0.81);
+border-radius: 20px;
+border: none;
+width: 450px;
+max-width: 100%;
+}
+
+.header {
+    padding: 10px 30px;
+}
+
+h3 {
+    text-align:center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.header p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.header hr{
+position: absolute;
+width: 368px;
+height: 0px;
+
+border: 1px solid #D3B2B2;
+}
+
+.form {
+    padding: 10px 40px 30px;
+}
+
+.form-control {
+margin-top: 10px;
+padding-bottom: 10px;
+position: relative;
+}
+
+.form-control label{
+display: inline-block;
+margin-bottom: 5px;
+color: #393939;
+}
+
+.form-control input {
+border: 1px solid white;
+border-radius: 5px;
+outline: 0;
+
+display: block;
+
+font-size: 14px;
+
+width: 100%;
+padding: 15px;
+}
+
+.check-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.check-box .form-check-label{
+    position: relative;
+    left: 40px;
+}
+
+.check-box .form-check-input{
+    position: relative;
+    right: 180px;
+    top: -25px;
+}
+
+.form-control.success input {
+border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+border: 3px solid #DB5A5A;
+}
+.form-control.error i.img-error {
+visibility: visible;
+}
+.form-control.success i.img-success {
+visibility: visible;
+}
+.form-control.error small{
+color: #DB5A5A;
+visibility: visible;
+}
+.form-control i {
+position: absolute;
+top: 45px;
+right: 10px;
+visibility: hidden;
+}
+.form-control small {
+visibility: hidden;
+position: absolute;
+margin-top: 5px;
+font-size: 14px;
+}
+.form button{
+margin-top: 5px;
+width: 100%;
+padding: 15px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background: rgba(93, 39, 71, 0.84);
+
+border: none;
+border-radius: 7px;
+
+font-family: 'Inter Regular';
+font-size: 15px;
+text-align: center;
+color: #FFFFFF;
+
+cursor: pointer;
+}

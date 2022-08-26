@@ -1,16 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="pag_cadastro.css">
     <link rel="shortcut icon" href="imagens/D_100 1.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/6e282e7ab6.js" crossorigin="anonymous"></script>
     <title>D 100</title>
 </head>
+
 <body>
-    
+    <div class="quadrado">
+        <div class="header">
+            <h3>Cadastro</h3>
+            <p>Bem-vindo ao D100, o melhor site para jogadores de RPG</p>
+            <hr>
+        </div>
+        <form class="form" id="form" method="post" novalidate>
+            <div class="form-control">
+                <label for="validationCustomName" class="form-label" id="nome">Nome de Usuário</label>
+                <input type="text" id="validationCustomName" placeholder="Usuário" maxlength="16" required>
+                <i class="img-success"><span class="fas fa-check-circle" style="color: #69FF65;"></span></i>
+                <i class="img-error"><span class="fas fa-exclamation-circle" style="color: #FF342F;"></span></i>
+
+                <small>Mensagem de Erro</small>
+            </div>
+            <div class="form-control">
+                <label for="validationCustomEmail" class="form-label" id="email">Endereço de E-mail</label>
+                <input type="email" id="validationCustomEmail" placeholder="E-mail" required>
+                <i class="img-success"><span class="fas fa-check-circle" style="color: #69FF65;"></span></i>
+                <i class="img-error"><span class="fas fa-exclamation-circle" style="color: #FF342F;"></span></i>
+
+                <small>Mensagem de erro</small>
+            </div>
+            <div class="form-control">
+                <label for="validationCustom02" class="form-label" id="senha">Senha</label>
+                <input type="password" id="validationCustomSenha" placeholder="Senha" min="6" required>
+                <i class="img-success"><span class="fas fa-check-circle" style="color: #69FF65;"></span></i>
+                <i class="img-error"><span class="fas fa-exclamation-circle" style="color: #FF342F;"></span></i>
+
+                <small>Mensagem de Erro</small>
+            </div>
+            <div class="form-control">
+                <label for="validationCustomConfirm" class="form-label" id="confi_senha">Confirmar senha</label>
+                <input type="password" id="validationCustomConfirm" placeholder="Confirme a senha" min="6" required>
+                <i class="img-success"><span class="fas fa-check-circle" style="color: #69FF65;"></span></i>
+                <i class="img-error"><span class="fas fa-exclamation-circle" style="color: #FF342F;"></span></i>
+
+                <small>Mensagem de Erro</small>
+            </div>
+            <div class="check-box">
+                <div class="form-control">
+                    <label class="form-check-label" for="invalidCheck" id="check_email">Concordo em receber notificações
+                        no e-mail</label>
+                    <input class="form-check-input" type="checkbox" value="" id="emailCheck">
+                </div>
+
+                <div class="form-control">
+                    <label class="form-check-label" for="invalidCheck" id="check_termos">Concordo com os termos de
+                        serviço</label>
+                    <input class="form-check-input" type="checkbox" value="" id="termsCheck" required>
+                    <i class="img-success" style="margin-top: -42px;"><span class="fas fa-check-circle" style="color: #4ab846;"></span></i>
+                    <i class="img-error" style="margin-top:-15px;"><span class="fas fa-exclamation-circle" style="color: #FF342F;"></span></i>
+
+                    <small style="margin-top:-15px;">Mensagem de Erro</small>
+                </div>
+            </div>
+
+            <div>
+                <button type="submit" class="btn" id="botao">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="pag_cadastro.js"></script>
 </body>
+
 </html>
