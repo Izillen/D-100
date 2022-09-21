@@ -1,0 +1,65 @@
+@font-face{
+  font-family: 'Inter Regular';
+  src: url(fonts/Inter/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face{
+  font-family: 'KoHo';
+  src: url(fonts/KoHo/KoHo-Medium.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+#titulo{
+    text-align: center;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-size: 45px;
+    color: #5D2747;
+}
+
+.meio{
+    text-align: center;
+    font-family: 'KoHo';
+    font-style: normal;
+    color: rgb(20, 20, 20);
+    font-size: 24px;
+}
+
+#escolha{
+  font-family: 'KoHo';
+    font-style: normal;
+    color: rgb(20, 20, 20);
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.coluna1{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 60px;
+}
+.coluna2{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 60px;
+}
+
+.coluna1 img{
+  width: 270px;
+  height: 152px;
+}
+.coluna2 img{
+  width: 270px;
+  height: 152px;
+}
