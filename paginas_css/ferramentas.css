@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=KoHo:wght@600&display=swap');
+
+body {
+
+    padding: 0px;
+
+  margin-left: 40px;
+
+  margin-right: 40px;
+  
+}
+
+#titulo{
+    text-align: center;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-size: 45px;
+    color: black;
+}
+
+/* criei uma div para juntas o class txtDado e img  */
+
+.dado{
+    font-family: 'inter';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+
+#titulo1{
+    color: #5D2747;
+    font-family: 'KoHo';
+    display: flex;
+    margin-left: 390px;
+    font-size: 32px;
+}
+
+.txtDado{
+    position: relative;
+    margin-right: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-top: 150px;
+}
+
+/* criei uma div para juntas o class txtFicha e img2  */
+
+.ficha{
+    font-family: 'inter';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+
+#titulo2{
+    color: #5D2747;
+    font-family: 'KoHo';
+    display: flex;
+    margin-left: 55px;
+    font-size: 32px;
+}
+
+.txtFicha{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+.img2{
+    position: relative;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+/* criei uma div para juntas o class txtlabo e img3  */
+
+.lapis{
+    font-family: 'inter';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+
+#titulo3{
+    color: #5D2747;
+    font-family: 'KoHo';
+    display: flex;
+    margin-left: 390px;
+    font-size: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+.txtLabo{
+    font-family: 'inter';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.img3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-top: 90px;
+}
