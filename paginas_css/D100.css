@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .titulo{
+      font-family: 'KoHo';
+      color: #5D2747;
+      font-weight: bold;
+  }
+
+  .titulo2{
+    font-family: 'KoHo';
+    color: #5D2747;
+  }
+  
+  .meio{
+      font-family: 'KoHo';
+      font-size: 24px;
+  }
+  
+  #escolha{
+    font-family: 'KoHo';
+      font-style: normal;
+      color: rgb(20, 20, 20);
+      font-size: 24px;
+  }
+  .btn_benvindas{
+    color: white;
+    background: #5D2747;
+    border: none;
+    border-radius: 7px;
+    width: 10rem;
+    height: 3rem;
+  }
